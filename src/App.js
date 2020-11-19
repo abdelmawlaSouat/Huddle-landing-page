@@ -12,6 +12,7 @@ import './App.css';
 import Navbar from './components/Navbar'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       <SectionOne />
       <SectionTwo />
+      <Footer />
     </div>
   )
 }

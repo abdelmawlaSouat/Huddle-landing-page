@@ -1,0 +1,32 @@
+footer {
+	background-color: var(--dark-cyan);
+	color: white;
+	padding: 4rem 1rem;
+}
+
+.logo-footer {
+	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(30deg) brightness(107%) contrast(101%);
+}
+
+footer h5 {
+	color: white !important;
+}
+
+.input-footer {
+	background: white !important;
+	margin-right: 1rem !important;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+footer .purple-btn {
+	padding: 0.5rem 1.2rem !important;
+}
+
+footer .icon {
+	margin-right: 1rem;
+}
+
+.social-medias {
+	margin-top: 2rem !important;
+}
