@@ -10,10 +10,22 @@
 	opacity: 0.5 !important;
 }
 
-.stats-container {
+.stats-text {
 	text-align: center !important;
 }
 
 .section-one a {
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) { 
+
+	.mockup-img {
+		width: 100%;
+	}
+
+	.mockup-grid {
+		margin-bottom: 4rem !important;
+	}
+
 }

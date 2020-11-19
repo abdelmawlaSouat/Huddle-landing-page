@@ -13,16 +13,20 @@ import { Grid, Button } from '@material-ui/core'
 
 function Navbar () {
 	return (
-			<Grid container justify="space-between">
-				<img src={logo}  alt='Huddle Logo' />
-				<a href="#">
-					<Button
-						variant="outlined"
-						className="btn white-btn rounded"
-					>
-						Try it free
-					</Button>
-				</a>
+			<Grid container justify="space-between" alignItems="center">
+				<Grid item>
+					<img src={logo} alt='Huddle Logo' className="logo" />
+				</Grid>
+				<Grid item>
+					<a href="#">
+						<Button
+							variant="outlined"
+							className="btn white-btn rounded"
+						>
+							Try it free
+						</Button>
+					</a>
+				</Grid>
 			</Grid>
 	)
 }

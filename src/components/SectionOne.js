@@ -39,7 +39,7 @@ function SectionOne () {
 						</Typography>
 					</Grid>
 
-					<Grid item xs={12}>
+					<Grid item md={12}>
 						<a href="#">
 							<Button 
 								className="purple-btn rounded"
@@ -52,7 +52,7 @@ function SectionOne () {
 					</Grid>
 
 					<Grid item className="mockup-grid">
-						<img src={mockupsImage} alt="Mockup" />
+						<img src={mockupsImage} alt="Mockup" className="mockup-img" />
 					</Grid>
 
 					<Grid item xs={12}>
@@ -60,14 +60,15 @@ function SectionOne () {
 							container
 							justify="space-around"
 							align="start"
+							spacing={10}
 						>	
-							<Grid item>
+							<Grid item >
 								<img
 									src={communitiesIcon} 
 									alt="Communities icon"
 									width="30"
 								/>
-								<div className="stats-container">
+								<div className="stats-text">
 									<Typography variant="h2">1.4k+</Typography>
 									<Typography
 										variant="subtitle2"
@@ -84,7 +85,7 @@ function SectionOne () {
 									alt="Messages icon"
 									width="30"
 								/>
-								<div className="stats-container">
+								<div className="stats-text">
 									<Typography variant="h2">2.7m+</Typography>
 									<Typography
 										variant="subtitle2"

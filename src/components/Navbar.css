@@ -5,3 +5,13 @@ header {
 header a {
 	text-decoration: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+	header .logo {
+		width: 150px !important;
+	}
+	header {
+		padding: 2rem 1rem;
+	}
+}
