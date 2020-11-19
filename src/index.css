@@ -17,7 +17,9 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 700 !important;
+  color: var(--dark-cyan) !important;
 }
 
 body {
@@ -41,5 +43,6 @@ body {
 
 .purple-btn {
   background: var(--pink) !important;
-	color: white !important;
+  color: white !important;
+  padding: 1.1rem 5rem !important;
 }

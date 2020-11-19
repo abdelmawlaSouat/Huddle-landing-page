@@ -1,0 +1,19 @@
+.section-one {
+	margin: 5rem 0;
+}
+
+.mockup-grid {
+	margin-top: 7rem !important;
+}
+
+.grey-text {
+	opacity: 0.5 !important;
+}
+
+.stats-container {
+	text-align: center !important;
+}
+
+.section-one a {
+	text-decoration: none;
+}

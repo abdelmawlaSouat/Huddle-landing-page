@@ -11,7 +11,7 @@ import './Navbar.css'
 import logo from '../images/logo.svg'
 import { Grid, Button } from '@material-ui/core'
 
-function Navbar (props) {
+function Navbar () {
 	return (
 			<Grid container justify="space-between">
 				<img src={logo}  alt='Huddle Logo' />
