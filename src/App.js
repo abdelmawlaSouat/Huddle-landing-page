@@ -9,13 +9,14 @@
 
 import './App.css';
 
+import Navbar from './components/Navbar'
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Langing Page</h1>
-        <p>Paraph de test</p>
-       </header>
+      <header>
+        <Navbar />
+      </header>
     </div>
   )
 }

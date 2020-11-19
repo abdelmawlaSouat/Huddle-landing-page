@@ -27,3 +27,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btn {
+  padding: 0.5rem 1.5rem !important;
+}
+.rounded {
+  border-radius: 30px !important;
+}
+
+.white-btn {
+	border: 1px solid var(--pink) !important;
+	color: var(--pink) !important;
+}
+
+.purple-btn {
+  background: var(--pink) !important;
+	color: white !important;
+}
