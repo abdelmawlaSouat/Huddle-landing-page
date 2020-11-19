@@ -55,7 +55,7 @@ function SectionOne () {
 						<img src={mockupsImage} alt="Mockup" className="mockup-img" />
 					</Grid>
 
-					<Grid item xs={12}>
+					<Grid item xs={12} className="mb-10">
 						<Grid
 							container
 							justify="space-around"

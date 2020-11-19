@@ -1,0 +1,20 @@
+.section-two .img-item {
+	width: 100%;
+}
+
+.section-two .MuiTypography-h4 {
+	margin-bottom: 1rem !important;
+}
+
+.section-two a {
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) { 
+
+	.illustration {
+		flex-direction: column-reverse !important;
+	}
+
+}

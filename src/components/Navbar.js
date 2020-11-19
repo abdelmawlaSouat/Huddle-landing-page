@@ -13,6 +13,7 @@ import { Grid, Button } from '@material-ui/core'
 
 function Navbar () {
 	return (
+		<header>
 			<Grid container justify="space-between" alignItems="center">
 				<Grid item>
 					<img src={logo} alt='Huddle Logo' className="logo" />
@@ -28,6 +29,7 @@ function Navbar () {
 					</a>
 				</Grid>
 			</Grid>
+		</header>
 	)
 }
 
