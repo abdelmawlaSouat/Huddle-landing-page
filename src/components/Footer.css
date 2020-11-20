@@ -4,6 +4,10 @@ footer {
 	padding: 4rem 1rem;
 }
 
+footer a {
+	color: white;
+}
+
 .logo-footer {
 	filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(30deg) brightness(107%) contrast(101%);
 }

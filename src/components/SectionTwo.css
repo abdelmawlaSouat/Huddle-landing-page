@@ -17,4 +17,8 @@
 		flex-direction: column-reverse !important;
 	}
 
+	.footer-container {
+		flex-direction: column-reverse !important;
+	}
+
 }

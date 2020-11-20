@@ -66,7 +66,6 @@ function SectionTwo () {
 		<section className="section-two">
 			<Grid
 				container
-				align="center"
 				justify="center"
 			>
 
@@ -75,16 +74,17 @@ function SectionTwo () {
 							className="illustration-container"
 							key={idx} 
 							item 
-							xs={10} md={12} 
+							xs={10} md={12}
 						>
 							<Grid
 								container
-								justify="space-around"
+								justify="center"
 								alignItems="center"
 								direction={item.direction}
+								spacing={10}
 								className="illustration mb-10"
 							>
-								<Grid item md={4}>
+								<Grid item md={3}>
 									<Typography variant="h4">
 										{item.title}
 									</Typography>
@@ -92,7 +92,7 @@ function SectionTwo () {
 										{item.p}
 									</Typography>
 								</Grid>
-								<Grid item md={4}>
+								<Grid item md={3}>
 									<img
 										className="img-item"
 										src={item.img.src}
@@ -104,22 +104,25 @@ function SectionTwo () {
 				))}
 
 				<Grid item className="mb-10">
-					<Typography variant="h4">
-						Ready To Build Your Community?
-					</Typography>
-
-					<a href="#">
-							<Button 
-								className="purple-btn rounded my-1"
-								variant="contained"
-								size="large"
-							>
-								Get Started For Free
-							</Button>
-					</a>
-					
+					<Grid container justify="center" align="center">
+						<Grid item md={12}>
+							<Typography variant="h4">
+								Ready To Build Your Community?
+							</Typography>
+						</Grid>
+						<Grid item>
+							<a href="#">
+									<Button 
+										className="purple-btn rounded my-1"
+										variant="contained"
+										size="large"
+									>
+										Get Started For Free
+									</Button>
+							</a>
+						</Grid>
+					</Grid>
 				</Grid>
-
 			</Grid>
 		</section>
 	)

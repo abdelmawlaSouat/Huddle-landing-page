@@ -10,7 +10,7 @@
 
 import './Footer.css'
 import logo from '../images/logo.svg'
-import { Button, Grid, TextField, Typography } from '@material-ui/core'
+import { Button, Grid, Typography } from '@material-ui/core'
 
 import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk'
 import EmailIcon from '@material-ui/icons/Email'
@@ -21,8 +21,12 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 function Footer () {
 	return (
 		<footer>
-			<Grid container justify="space-around">
-				
+			<Grid
+				container
+				className="footer-container"
+				justify="space-around"
+				spacing={10}
+			>
 				<Grid item md={3}>
 					<Grid container direction="column" spacing={2} >
 						<Grid item>
@@ -55,13 +59,19 @@ function Footer () {
 						<Grid item md={12} className="social-medias">
 							<Grid container spacing={1}>
 								<Grid item>
-									<FacebookIcon />
+									<a href="#">
+										<FacebookIcon />
+									</a>
 								</Grid>
 								<Grid item>
-									<InstagramIcon />
+									<a href="#">
+										<InstagramIcon />
+									</a>
 								</Grid>
 								<Grid item>
-									<TwitterIcon />
+									<a href="#">
+										<TwitterIcon />
+									</a>
 								</Grid>
 							</Grid>
 						</Grid>
@@ -71,9 +81,11 @@ function Footer () {
 
 				<Grid item  md={3}>
 					<Grid container spacing={2}>
+						
 						<Grid item>
 							<Typography variant="h5">Newsletter</Typography>
 						</Grid>
+
 						<Grid item>
 							<Typography variant="body2">
 								To recieve tips on how to grow your community, sign up to our 
